@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Cheat sheet</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <div class="center"> 
+    <h1>CSS Cheat Sheet</h1>
+    
+    <table class="center">
+        <thead>
+              <tr>
+                  <th colspan="4"><h2>Selector Terms</h2></th>
+              </tr>
+              <tr>
+                  <th>Selector</th>
+                  <th>Format</th>
+                  <th>Example</th>
+                  <th>Description</th>
+              </tr>
+        </thead>
+        <tbody>
+              <tr>
+                  <th>Universal</th>
+                  <td>*</td>
+                  <td>* {color: red;}</td>
+                  <td>Selects all elements</td>
+              </tr>
+              <tr>
+                  <th>Type (Tag)</th>
+                  <td><i>tag</i></td>
+                  <td>h1 {color: red;}</td>
+                  <td>Selects all elements with the specified tag</td>
+              </tr>
+              <tr>
+                  <th>Type (Atribute)</th>
+                  <td>[]</td>
+                  <td>[href] {color: red}</td>
+                  <td>Selects all elements that have the atribute specified</td>
+              </tr>
+              <tr>
+                  <th>Type (Pseudo)</th>
+                  <td>:</td>
+                  <td>a:active {color: red;}</td>
+                  <td>Selects standard alternate states of elements</td>
+              </tr>
+              <tr>
+                  <th>Class</th>
+                  <td>.</td>
+                  <td>.classname {color: red;}</td>
+                  <td>Selects all elements with specified class</td>
+              </tr>
+              <tr>
+                  <th>ID</th>
+                  <td>#</td>
+                  <td>#IDname {color: red;}</td>
+                  <td>Selects the element with the specified ID</td>
+              </tr>
+        </tbody>
+        <thead>
+              <tr>
+                  <th colspan="4"><h2>Combination Selectors</h2></th>
+              </tr>
+              <tr>
+                  <th>Combination</th>
+                  <th>Format</th>
+                  <th>Example</th>
+                  <th>Description</th>
+              </tr>
+        </thead>
+        <tbody>
+              <tr>
+                  <th>Multiple</th>
+                  <td>,</td>
+                  <td>h1, h2 {color: red;}</td>
+                  <td>Selects more than one type for styling</td>
+              </tr>
+              <tr>
+                  <th>inside</th>
+                  <td><i>space</i></td>
+                  <td>div h2 {color: red;}</td>
+                  <td>Selects elements within other elements</td>
+              </tr>
+              <tr>
+                  <th>tag class</th>
+                  <td><i>tag</i>.</td>
+                  <td>h3.classname {color: red;}</td>
+                  <td>Selects the element with specified tags of specified class</td>
+              </tr>
+              <tr>
+                  <th>Parent</th>
+                  <td>&gt;</td>
+                  <td>p &gt; a {color: red;}</td>
+                  <td>Selects elements that have other specified elements as parents</td>
+              </tr>
+              <tr>
+                  <th>First After</th>
+                  <td>+</td>
+                  <td>h3 p {color: red}</td>
+                  <td>Selects the first elements that are immediately after another specified element</td>
+              </tr>
+              <tr>
+                  <th>All After</th>
+                  <td>~</td>
+                  <td>th ~ td {color: red;}</td>
+                  <td>Selects all elements immediately after specified element</td>
+              </tr>
+        </tbody>
+    </table>
+    </div>
+  </body>
+</html>

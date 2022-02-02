@@ -1,0 +1,73 @@
+tbody th {
+    text-align: left;
+    background-color: cornsilk;
+    color: olive;
+}
+td {
+    background-color: papayawhip;
+    color: peru;
+    font-family: 'Times New Roman', Times, serif;
+    border-style: solid;
+    border-width: thin;
+    border-color:lightgoldenrodyellow;
+    padding-left: 5px;
+    font-weight: bold;
+    
+}
+
+th {
+    background-color: khaki;
+    color: olivedrab;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+thead > tr > th[colspan="4"] {
+    background-color: peachpuff;
+}
+
+td + td {
+    background-color: moccasin;
+    font-family: monospace;
+    font-weight: normal;
+}
+
+h1 {
+    background-color: lightyellow;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: peru;
+    text-align: center;
+}
+
+td + td + td {
+    background-color: lemonchiffon;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: normal;
+}
+
+
+
+
+.center {
+    width:75%; 
+    margin-left:15%; 
+    margin-right:15%;
+    
+}
+
+h2 {
+    margin: 0%;
+    color: sienna;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+tbody {
+    border-style: solid;
+    border-width: thick;
+    border-color: indianred;
+}
+
+tr {
+}
+
+table {
+    border-spacing: 0px;
+}
